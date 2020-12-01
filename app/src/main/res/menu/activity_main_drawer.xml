@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/app_home"/>
+    <item android:id="@+id/setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/app_setting"/>
+</group>
+    <item android:title="@string/app_communicate">
+        <menu>
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/app_share"/>
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="@string/app_send"/>
+            <item
+                android:id="@+id/translate"
+                android:icon="@drawable/ic_baseline_g_translate_24"
+                android:title="@string/app_translate"/>
+
+        </menu>
+    </item>
+</menu>

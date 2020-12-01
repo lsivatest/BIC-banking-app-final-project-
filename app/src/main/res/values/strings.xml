@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">RIC</string>
+    <string name="app_home">Home</string>
+    <string name="app_setting">Setting</string>
+    <string name="app_communicate">Communicate</string>
+    <string name="app_share">Share</string>
+    <string name="app_send">Send</string>
+    <string name="app_translate">G-Translate</string>
+
+<!--    <string-array name="type">-->
+<!--        <item>saving</item>-->
+<!--        <item>saving</item>-->
+<!--        <item>saving</item>-->
+<!--        <item>saving</item>-->
+
+<!--    </string-array>-->
+
+            <string-array name="LoanType">
+                <item>Personal</item>
+                <item>Home-Equity</item>
+                <item>Professionals</item>
+                <item>Pensioners</item>
+                <item>PensionAdvance</item>
+                <item>EducationLoans</item>
+            </string-array>
+    <string-array name="AccountType">
+        <item>Personal</item>
+        <item>Child</item>
+        <item>Adults</item>
+        <item>Senoirs</item>
+        <item>Saving</item>
+        <item>Current</item>
+    </string-array>
+
+</resources>
