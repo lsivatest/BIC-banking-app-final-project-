@@ -1,4 +1,4 @@
-package com.example.bic;
+package com.example.bic1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,25 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class userlogin extends AppCompatActivity {
-    Button create;
+public class Adminlogin extends AppCompatActivity {
+    Button register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_userlogin);
-        create = (Button) findViewById(R.id.create);
+        setContentView(R.layout.activity_adminlogin);
+        register = (Button) findViewById(R.id.register);
 
 
-        create.setOnClickListener(new View.OnClickListener() {
+
+        register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a = new Intent(userlogin.this, Register.class);
+                Intent a = new Intent(Adminlogin.this, Sendtobank.class);
                 startActivity(a);
-                finish();
-
+                //finish();
             }
         });
-
     }
 }

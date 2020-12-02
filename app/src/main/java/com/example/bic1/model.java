@@ -1,4 +1,4 @@
-package com.example.bic;
+package com.example.bic1;
 public class model
 {
     String name,rate,purl,mail,address,tp;

@@ -1,16 +1,11 @@
-package com.example.bic;
+package com.example.bic1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Admincreate extends AppCompatActivity {
     EditText username, password, email, address, mobile;

@@ -1,4 +1,4 @@
-package com.example.bic;
+package com.example.bic1;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;

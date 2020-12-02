@@ -1,4 +1,4 @@
-package com.example.bic;
+package com.example.bic1;
 
 import org.junit.Test;
 

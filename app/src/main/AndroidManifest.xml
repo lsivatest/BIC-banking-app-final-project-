@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bic">
+    package="com.example.bic1">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,20 +12,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Register"></activity>
-        <activity android:name=".Pawning" />
+        <activity android:name="com.example.bic1.Register"></activity>
+        <activity android:name="com.example.bic1.Pawning" />
 <!--        <activity android:name=".savingdetils" />-->
-        <activity android:name=".Sendtobank" />
-        <activity android:name=".Admincreate" />
-        <activity android:name=".Savings" />
-        <activity android:name=".Adminlogin" />
-        <activity android:name=".userlogin" />
-        <activity android:name=".Admin" />
-        <activity android:name=".DetailsActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Loan" />
-        <activity android:name=".savingdetils" />
-            <activity android:name=".Login">
+        <activity android:name="com.example.bic1.Sendtobank" />
+        <activity android:name="com.example.bic1.Admincreate" />
+        <activity android:name="com.example.bic1.Savings" />
+        <activity android:name="com.example.bic1.Adminlogin" />
+        <activity android:name="com.example.bic1.userlogin" />
+        <activity android:name="com.example.bic1.Admin" />
+        <activity android:name="com.example.bic1.DetailsActivity" />
+        <activity android:name="com.example.bic1.MainActivity" />
+        <activity android:name="com.example.bic1.Loan" />
+        <activity android:name="com.example.bic1.Login" />
+            <activity android:name="com.example.bic1.savingdetils">
 
 
             <intent-filter>

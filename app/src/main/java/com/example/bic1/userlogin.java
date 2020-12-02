@@ -1,26 +1,29 @@
-package com.example.bic;
+package com.example.bic1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.Button;
 
-public class Savings extends AppCompatActivity {
-    TextView savings,fixed;
+public class userlogin extends AppCompatActivity {
+    Button create;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_savings);
-        savings = (TextView) findViewById(R.id.saving);
-        savings.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_userlogin);
+        create = (Button) findViewById(R.id.create);
+
+
+        create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a = new Intent(Savings.this, savingdetils.class);
+                Intent a = new Intent(userlogin.this, Register.class);
                 startActivity(a);
                 finish();
+
             }
         });
 

@@ -1,4 +1,4 @@
-package com.example.bic;
+package com.example.bic1;
 public class form {
     String address,contact,name,nic,bank,rate,type;
 
