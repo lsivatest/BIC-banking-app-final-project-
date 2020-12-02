@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/register"
-    android:background="@drawable/image9"
+    android:background="@drawable/bg5"
     tools:context=".Register"
     android:padding="16dp">
 
@@ -89,15 +89,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="right|center">
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="Create"
-            android:layout_marginTop="10dp"
             android:id="@+id/create"
-            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
             android:layout_gravity="center"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"/>
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bac2"
+            android:text="Create"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp"
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>
