@@ -22,10 +22,11 @@
         <activity android:name="com.example.bic1.userlogin" />
         <activity android:name="com.example.bic1.Admin" />
         <activity android:name="com.example.bic1.DetailsActivity" />
-        <activity android:name="com.example.bic1.MainActivity" />
+        <activity android:name="com.example.bic1.savingdetils" />
         <activity android:name="com.example.bic1.Loan" />
-        <activity android:name="com.example.bic1.Login" />
-            <activity android:name="com.example.bic1.savingdetils">
+        <activity android:name="com.example.bic1.MainActivity" />
+        <activity android:name="com.example.bic1.Profile" />
+            <activity android:name="com.example.bic1.Login">
 
 
             <intent-filter>

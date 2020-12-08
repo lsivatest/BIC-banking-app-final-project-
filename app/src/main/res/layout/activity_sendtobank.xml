@@ -9,12 +9,7 @@
     tools:context=".Register"
     android:padding="16dp">
 
-    <ImageButton
-        android:id="@+id/ivback"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_arrow_back_ios_24"
-        android:background="@color/colorAccent"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,13 +23,13 @@
         android:id="@+id/username"
         android:layout_height="66dp"
         android:hint="Name"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="110dp"
         android:inputType="text"
         android:background="@drawable/register_edittext_backfround"
         android:drawableLeft="@drawable/ic_person_24"
         android:padding="10dp"
         android:elevation="16dp"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="15dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -43,8 +38,7 @@
         android:padding="10dp"
         android:id="@+id/mobile"
         android:hint="Mobile"
-        android:layout_marginBottom="20dp"
-
+        android:layout_marginBottom="15dp"
         android:inputType="number"
         android:background="@drawable/register_edittext_backfround"
         android:elevation="8dp"/>
@@ -54,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="66dp"
         android:padding="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="15dp"
         android:id="@+id/type2"
         android:drawableRight="@mipmap/image2"
         android:hint="Bank"
@@ -70,6 +64,7 @@
         android:padding="10dp"
         android:id="@+id/branch"
         android:hint="Branch"
+        android:layout_marginBottom="15dp"
         android:inputType="text"
         android:background="@drawable/register_edittext_backfround"
         android:elevation="8dp"/>
@@ -78,7 +73,7 @@
         android:layout_height="66dp"
         android:id="@+id/type1"
         android:text="Choose Type"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="15dp"
         android:textSize="20dp"
         android:padding="5dp"
         android:layout_marginTop="5dp"
@@ -95,15 +90,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="right|center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="1dp"
-            android:gravity="center"
-            android:textColor="#000000"
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:id="@+id/confirm"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
             android:layout_marginRight="16dp"
+            android:background="@drawable/bac2"
             android:textStyle="bold"
             android:text="Confirm"/>
 

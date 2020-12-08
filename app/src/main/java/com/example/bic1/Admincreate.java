@@ -19,7 +19,7 @@ public class Admincreate extends AppCompatActivity {
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
         email = (EditText) findViewById(R.id.email);
-        address = (EditText) findViewById(R.id.address);
+//        address = (EditText) findViewById(R.id.address);
         mobile = (EditText) findViewById(R.id.mobile);
         confirm = (Button) findViewById(R.id.create);
 

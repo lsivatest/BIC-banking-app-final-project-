@@ -19,151 +19,75 @@
     <TextView
         android:layout_width="401dp"
         android:layout_height="83dp"
-        android:layout_marginBottom="20dp"
         android:text="YOUR GOALS"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="32dp"
+        android:textSize="42dp"
         android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="350dp"
+    <Button
+        android:id="@+id/account"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="50dp"
         android:layout_marginRight="30dp"
-        android:background="@drawable/bg1"
+        android:background="@drawable/account"
         android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="30dp"
-            android:orientation="vertical">
+<!--        <LinearLayout>-->
+<!--            <LinearLayout>-->
+<!--                <LinearLayout>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+    </Button>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="91dp"
-                    android:src="@drawable/account" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/account"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="ACCOUNT"
-                        android:textSize="35dp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
+    <Button
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginTop="15dp"
+        android:id="@+id/loan"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         android:orientation="horizontal"
-        android:background="@drawable/bg2">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
+        android:background="@drawable/laon">
+<!--        <LinearLayout>-->
+<!--            <LinearLayout>-->
+<!--                <LinearLayout>-->
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="80dp"
-                    android:src="@drawable/loan"/>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="LOAN"
-                        android:textSize="40dp"
-                        android:textStyle="bold"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+    </Button>
+    <Button
+        android:id="@+id/pawning"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         android:orientation="horizontal"
-        android:background="@drawable/bg3">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="80dp"
-                    android:src="@drawable/necklace"/>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="93dp"
-                    android:layout_gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="PAWNING"
-                        android:id="@+id/pawning"
-                        android:textSize="40dp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
+        android:background="@drawable/pawning">
+<!--        <LinearLayout>-->
+<!--            <LinearLayout>-->
+<!--                <LinearLayout>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+    </Button>
     <Button
         android:id="@+id/admin"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
         android:text="ADMINISTRATOR"
+        android:textColor="#ffffff"
         android:textSize="20dp"
-        android:background="@drawable/bg2"
+        android:background="@drawable/bac2"
         android:textStyle="bold" />
 </LinearLayout>
