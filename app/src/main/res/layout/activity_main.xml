@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg5"
+    android:background="#FF018786"
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="wrap_content"
@@ -77,17 +77,4 @@
 <!--            </LinearLayout>-->
 <!--        </LinearLayout>-->
     </Button>
-    <Button
-        android:id="@+id/admin"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:paddingLeft="50dp"
-        android:paddingRight="50dp"
-        android:text="ADMINISTRATOR"
-        android:textColor="#ffffff"
-        android:textSize="20dp"
-        android:background="@drawable/bac2"
-        android:textStyle="bold" />
 </LinearLayout>

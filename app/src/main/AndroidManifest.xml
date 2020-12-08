@@ -13,20 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.bic1.Register"></activity>
-        <activity android:name="com.example.bic1.Pawning" />
-<!--        <activity android:name=".savingdetils" />-->
-        <activity android:name="com.example.bic1.Sendtobank" />
-        <activity android:name="com.example.bic1.Admincreate" />
+        <!--        <activity android:name=".savingdetils" />-->
         <activity android:name="com.example.bic1.Savings" />
-        <activity android:name="com.example.bic1.Adminlogin" />
         <activity android:name="com.example.bic1.userlogin" />
-        <activity android:name="com.example.bic1.Admin" />
-        <activity android:name="com.example.bic1.DetailsActivity" />
-        <activity android:name="com.example.bic1.savingdetils" />
-        <activity android:name="com.example.bic1.Loan" />
-        <activity android:name="com.example.bic1.MainActivity" />
         <activity android:name="com.example.bic1.Profile" />
-            <activity android:name="com.example.bic1.Login">
+        <activity android:name="com.example.bic1.DetailsActivity" />
+        <activity android:name="com.example.bic1.Login" />
+        <activity android:name="com.example.bic1.MainActivity" />
+        <activity android:name="com.example.bic1.savingdetils" >
+
 
 
             <intent-filter>

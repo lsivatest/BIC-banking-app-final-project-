@@ -30,35 +30,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        loan= (Button) findViewById(R.id.loan);
-        loan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent a = new Intent(MainActivity.this, Loan.class);
-                startActivity(a);
-                finish();
-            }
-        });
 
-        pawning= (Button) findViewById(R.id.pawning);
-        pawning.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent a = new Intent(MainActivity.this, Pawning.class);
-                startActivity(a);
-                finish();
-            }
-        });
-
-        admin= (Button) findViewById(R.id.admin);
-        admin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent a = new Intent(MainActivity.this, Admin.class);
-                startActivity(a);
-                finish();
-            }
-        });
     }
 }
 
