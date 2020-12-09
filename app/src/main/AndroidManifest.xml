@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bic1">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,16 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.bic1.Register"></activity>
-        <!--        <activity android:name=".savingdetils" />-->
-        <activity android:name="com.example.bic1.Savings" />
-        <activity android:name="com.example.bic1.userlogin" />
-        <activity android:name="com.example.bic1.Profile" />
-        <activity android:name="com.example.bic1.DetailsActivity" />
-        <activity android:name="com.example.bic1.Login" />
-        <activity android:name="com.example.bic1.MainActivity" />
-        <activity android:name="com.example.bic1.savingdetils" >
-
+        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name=".Register" /> <!-- <activity android:name=".savingdetils" /> -->
+        <activity android:name=".Savings" />
+        <activity android:name=".userlogin" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Loan" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".fixed"/>
+        <activity android:name=".savingdetils">
 
 
             <intent-filter>

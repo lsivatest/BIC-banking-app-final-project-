@@ -46,16 +46,16 @@
             android:layout_marginLeft="10dp"/>
 
 
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:id="@+id/calculate"-->
-<!--            android:text="rate*amount"-->
-<!--            android:textSize="25sp"-->
-<!--            android:textColor="#000"-->
-<!--            android:layout_toRightOf="@id/img1"-->
-<!--            android:layout_below="@id/ratetext"-->
-<!--            android:layout_marginLeft="10dp"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calculate"
+            android:text="rate*amount"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/ratetext"
+            android:layout_marginLeft="10dp"/>
 
 
     </RelativeLayout>

@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class DetailsActivity extends AppCompatActivity {
+public class Loanapply extends AppCompatActivity {
     ImageView img;
     TextView tv1, tv2, tv3, tv4, tv5,type;
     Button apply;
@@ -29,10 +29,10 @@ public class DetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activitydetails);
+        setContentView(R.layout.loan);
 
         //DIALOG BOX INTIALIZE
-        dialog=new Dialog(DetailsActivity.this);
+        dialog=new Dialog(Loanapply.this);
         dialog.setContentView(R.layout.alert);
         if (Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP){
             dialog.getWindow().setBackgroundDrawable(getDrawable(R.drawable.bac));
@@ -61,7 +61,7 @@ public class DetailsActivity extends AppCompatActivity {
         okey.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Toast.makeText(DetailsActivity.this, "Accepted !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Loanapply.this, "Accepted !", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();
             }
         });

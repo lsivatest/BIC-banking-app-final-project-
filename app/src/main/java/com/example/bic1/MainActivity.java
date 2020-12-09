@@ -13,7 +13,7 @@ import android.widget.TextView;
 import static com.example.bic1.R.id.account;
 
 public class MainActivity extends AppCompatActivity {
-    Button account, loan, pawning, admin;
+    Button account,fixed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent a = new Intent(MainActivity.this, Savings.class);
+                startActivity(a);
+                finish();
+            }
+        });
+
+        fixed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(MainActivity.this, fixed.class);
                 startActivity(a);
                 finish();
             }
